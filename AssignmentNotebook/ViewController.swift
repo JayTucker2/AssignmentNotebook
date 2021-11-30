@@ -7,7 +7,7 @@
 
 
 import UIKit
-var gay = 0
+var test = 0
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
