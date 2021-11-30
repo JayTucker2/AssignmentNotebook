@@ -3,8 +3,8 @@
 //  AssignmentNotebook
 //
 //  Created by JAYLAN TUCKER on 11/30/21.
-//
-//daddy chill
+//Edited by JAYLAN TUCKER
+
 
 import UIKit
 var gay = 0
