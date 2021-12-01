@@ -16,7 +16,9 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
-//This is yo mom
+    @IBAction func Button(_ sender: Any) {
+    }
+    //This is yo mom
 
 }
 
