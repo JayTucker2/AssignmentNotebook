@@ -6,7 +6,12 @@
 //  Edited by BRENT BLITEK
 //
 //Edited by JAYLAN TUCKER
-
+class VariableThing{
+    static var className = ""
+    static var assignmentName = ""
+    static var date = ""
+    
+}
 
 import UIKit
 var test = 0
