@@ -9,6 +9,7 @@
 class VariableThing{
     static var className = ""
     static var assignmentName = ""
+    static var date = ""
     
 }
 
