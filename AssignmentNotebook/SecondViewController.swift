@@ -7,7 +7,10 @@
 
 import UIKit
 
-class SecondViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
+class SecondViewController: UIViewController, UITableViewDelegate, UITableViewDataSource{
+    var notes: [String] = []
+    
+    
     
     
 
@@ -25,6 +28,8 @@ class SecondViewController: UIViewController, UITableViewDelegate, UITableViewDa
         <#code#>
     }
     @IBAction func addBut(_ sender: Any) {
+        var now = Date()
+        print(now)
     }
     
 
