@@ -17,6 +17,7 @@
 		B940AFA827565F6100803314 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B940AFA727565F6100803314 /* SecondViewController.swift */; };
 		B940AFAA27565F7500803314 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B940AFA927565F7500803314 /* ThirdViewController.swift */; };
 		B940AFAC27565F9600803314 /* FourthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B940AFAB27565F9600803314 /* FourthViewController.swift */; };
+		B997B82D275A5C0800A3D654 /* notesClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = B997B82C275A5C0800A3D654 /* notesClass.swift */; };
 		B9C5C9E72759037700B167F1 /* Notebook.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9C5C9E62759037700B167F1 /* Notebook.swift */; };
 /* End PBXBuildFile section */
 
@@ -33,6 +34,7 @@
 		B940AFA727565F6100803314 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		B940AFA927565F7500803314 /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
 		B940AFAB27565F9600803314 /* FourthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FourthViewController.swift; sourceTree = "<group>"; };
+		B997B82C275A5C0800A3D654 /* notesClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = notesClass.swift; sourceTree = "<group>"; };
 		B9C5C9E62759037700B167F1 /* Notebook.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notebook.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -70,6 +72,7 @@
 				B940AF9227565E8700803314 /* SceneDelegate.swift */,
 				B940AF9427565E8700803314 /* ViewController.swift */,
 				B940AF9627565E8700803314 /* Main.storyboard */,
+				B997B82C275A5C0800A3D654 /* notesClass.swift */,
 				B9C5C9E62759037700B167F1 /* Notebook.swift */,
 				B940AFAB27565F9600803314 /* FourthViewController.swift */,
 				B940AFA727565F6100803314 /* SecondViewController.swift */,
@@ -154,6 +157,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B940AF9527565E8700803314 /* ViewController.swift in Sources */,
+				B997B82D275A5C0800A3D654 /* notesClass.swift in Sources */,
 				B940AF9B27565E8700803314 /* AssignmentNotebook.xcdatamodeld in Sources */,
 				B9C5C9E72759037700B167F1 /* Notebook.swift in Sources */,
 				B940AF9127565E8700803314 /* AppDelegate.swift in Sources */,
