@@ -11,12 +11,14 @@
 import UIKit
 var test = 0
 class ViewController: UIViewController {
-
+    @IBOutlet weak var userNameTextfield: UITextField!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
     @IBAction func Button(_ sender: Any) {
+        
     }
     //This is yo mom
 
