@@ -97,7 +97,7 @@
                                 <rect key="frame" x="0.0" y="75" width="414" height="738"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="myCell" id="zC2-4W-dcd" customClass="notesCell" customModule="AssignmentNotebook" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="myCell" id="zC2-4W-dcd" customClass="notesClass" customModule="AssignmentNotebook" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="44.5" width="414" height="60"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="zC2-4W-dcd" id="3RL-44-9xo">
@@ -161,13 +161,10 @@
                             <constraint firstItem="ezc-TC-OcD" firstAttribute="bottom" secondItem="9yS-7h-BLJ" secondAttribute="bottom" id="pGu-Mc-N9e"/>
                             <constraint firstItem="9yS-7h-BLJ" firstAttribute="leading" secondItem="ezc-TC-OcD" secondAttribute="leading" id="wGF-Gy-scE"/>
                         </constraints>
-                        <connections>
-                            <outlet property="notesTItle" destination="9yS-7h-BLJ" id="p4I-Px-VzC"/>
-                        </connections>
                     </view>
                     <tabBarItem key="tabBarItem" title="Notes" selectedImage="list.bullet.rectangle.portrait" catalog="system" id="afb-U0-Qc5"/>
                     <connections>
-                        <outlet property="tableOutlet" destination="9yS-7h-BLJ" id="xsM-Ra-vH9"/>
+                        <outlet property="tableOutlet" destination="9yS-7h-BLJ" id="3sw-mB-4NX"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1f6-Z5-ZiM" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>

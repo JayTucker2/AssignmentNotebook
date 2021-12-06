@@ -15,6 +15,9 @@ class SecondViewController: UIViewController, UITableViewDelegate, UITableViewDa
     @IBOutlet weak var tableOutlet: UITableView!
     override func viewDidLoad() {
         super.viewDidLoad()
+        tableOutlet.delegate = self
+        tableOutlet.dataSource = self
+        notes.append("one")
 
         // Do any additional setup after loading the view.
     }
@@ -23,8 +26,9 @@ class SecondViewController: UIViewController, UITableViewDelegate, UITableViewDa
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "myCell", for: indexPath) as! notesCell
-        cell.notesTitle.text = "Notes Title"
+        print("cell")
+        let cell = tableView.dequeueReusableCell(withIdentifier: "myCell", for: indexPath) as! notesClass
+       cell.notesTitle.text = "Notes Title"
         cell.timeDue.text = "Time Due"
         return cell
     }

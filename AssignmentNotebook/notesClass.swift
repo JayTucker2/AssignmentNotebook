@@ -7,7 +7,7 @@
 
 import Foundation
 import UIKit
-class notesCell: UITableViewCell{
+class notesClass: UITableViewCell{
     @IBOutlet weak var notesTitle: UILabel!
     @IBOutlet weak var timeDue: UILabel!
     
