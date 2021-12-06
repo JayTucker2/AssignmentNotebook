@@ -7,8 +7,9 @@
 
 import UIKit
 
-class SecondViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
-    
+
+class SecondViewController: UIViewController, UITableViewDelegate, UITableViewDataSource{
+    var notes: [String] = []
     
 
     @IBOutlet weak var tableOutlet: UITableView!
@@ -18,13 +19,18 @@ class SecondViewController: UIViewController, UITableViewDelegate, UITableViewDa
         // Do any additional setup after loading the view.
     }
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        <#code#>
+        notes.count
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        <#code#>
+        let cell = tableView.dequeueReusableCell(withIdentifier: "myCell", for: indexPath) as! notesCell
+        cell.notesTitle.text = "Notes Title"
+        cell.timeDue.text = "Time Due"
+        return cell
     }
     @IBAction func addBut(_ sender: Any) {
+        let now = Date()
+        print(now)
     }
     
 
