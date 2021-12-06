@@ -11,7 +11,7 @@ class ThirdViewController: UIViewController {
     @IBOutlet weak var textField1: UITextField!
     @IBOutlet weak var textField2: UITextField!
     @IBOutlet weak var textField3: UITextField!
-    let alert = UIAlertController(title: "Error", message: "Enter a variable", preferredStyle: .alert)
+    let alert = UIAlertController(title: "Error", message: "You are missing something", preferredStyle: .alert)
     let okAction = UIAlertAction(title: "ok", style: .default, handler: nil)
 
     
@@ -22,20 +22,14 @@ class ThirdViewController: UIViewController {
     }
     @IBAction func button(_ sender: Any) {
         alert.addAction(okAction)
-
-        if textField1.text! == ""
-        {
+        if textField1.text! == "" || textField2.text! == "" || textField3.text == ""{
             present(alert, animated: true, completion: nil)
         }
-        else if textField2.text == ""{
-            present(alert, animated: true, completion: nil)
-        }
-        else if textField3.text == ""{
-            present(alert, animated: true, completion: nil)
-        }
+        else{
         VariableThing.className = textField1.text!
         VariableThing.assignmentName = textField2.text!
         VariableThing.date = textField3.text!
+        }
     }
     
 
