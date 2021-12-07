@@ -17,14 +17,16 @@ import UIKit
 var test = 0
 class ViewController: UIViewController {
     @IBOutlet weak var userNameTextfield: UITextField!
+    @IBOutlet weak var nameLabel: UILabel!
     
     override func viewDidLoad() {
-        
+        nameLabel.isHidden = true
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
     @IBAction func Button(_ sender: Any) {
-        
+        nameLabel.isHidden = false
+        nameLabel.text = userNameTextfield.text
     }
     //This is yo mom
 
