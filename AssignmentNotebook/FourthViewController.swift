@@ -15,7 +15,9 @@ class FourthViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        lab1.text! = "Class: \(VariableThing.className) "
+        lab2.text! = "Assignment: \(VariableThing.assignmentName) "
+        lab3.text! = "Date: \(VariableThing.date) "
         // Do any additional setup after loading the view.
     }
     
