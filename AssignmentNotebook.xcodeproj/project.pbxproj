@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		22BDBD4A275FA10B00F70AA4 /* AssignmentClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22BDBD49275FA10B00F70AA4 /* AssignmentClass.swift */; };
 		B940AF9127565E8700803314 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B940AF9027565E8700803314 /* AppDelegate.swift */; };
 		B940AF9327565E8700803314 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B940AF9227565E8700803314 /* SceneDelegate.swift */; };
 		B940AF9527565E8700803314 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B940AF9427565E8700803314 /* ViewController.swift */; };
@@ -22,6 +23,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		22BDBD49275FA10B00F70AA4 /* AssignmentClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssignmentClass.swift; sourceTree = "<group>"; };
 		B940AF8D27565E8700803314 /* AssignmentNotebook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AssignmentNotebook.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B940AF9027565E8700803314 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B940AF9227565E8700803314 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -72,6 +74,7 @@
 				B940AF9227565E8700803314 /* SceneDelegate.swift */,
 				B940AF9427565E8700803314 /* ViewController.swift */,
 				B940AF9627565E8700803314 /* Main.storyboard */,
+				22BDBD49275FA10B00F70AA4 /* AssignmentClass.swift */,
 				B997B82C275A5C0800A3D654 /* notesClass.swift */,
 				B9C5C9E62759037700B167F1 /* Notebook.swift */,
 				B940AFAB27565F9600803314 /* FourthViewController.swift */,
@@ -161,6 +164,7 @@
 				B940AF9B27565E8700803314 /* AssignmentNotebook.xcdatamodeld in Sources */,
 				B9C5C9E72759037700B167F1 /* Notebook.swift in Sources */,
 				B940AF9127565E8700803314 /* AppDelegate.swift in Sources */,
+				22BDBD4A275FA10B00F70AA4 /* AssignmentClass.swift in Sources */,
 				B940AFAC27565F9600803314 /* FourthViewController.swift in Sources */,
 				B940AFA827565F6100803314 /* SecondViewController.swift in Sources */,
 				B940AFAA27565F7500803314 /* ThirdViewController.swift in Sources */,
