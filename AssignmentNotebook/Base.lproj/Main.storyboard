@@ -76,33 +76,36 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9ms-Jv-uPa">
-                                <rect key="frame" x="174" y="200" width="67" height="31"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Class Name" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AUf-i3-P9A">
+                                <rect key="frame" x="122" y="79" width="129" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="Button"/>
-                            </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AUf-i3-P9A">
-                                <rect key="frame" x="67" y="89" width="42" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="B6o-vO-81X">
-                                <rect key="frame" x="67" y="137" width="42" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Assignment Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="B6o-vO-81X">
+                                <rect key="frame" x="67" y="137" width="198" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YCK-5T-PBw">
-                                <rect key="frame" x="67" y="187" width="42" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Due Date" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YCK-5T-PBw">
+                                <rect key="frame" x="67" y="187" width="101" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="dgd-wT-mi7">
+                                <rect key="frame" x="20" y="225" width="374" height="615"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <mutableString key="text">EDIT TEXT EDIT TEXT EDIT TEXT EDIT TEXT EDIT TEXT EDIT TEXT EDIT TEXT EDIT TEXT EDIT TEXT EDIT TEXT EDIT TEXT EDIT TEXT EDIT TEXT EDIT TEXT EDIT TEXT EDIT TEXT EDIT TEXT EDIT TEXT EDIT TEXT EDIT TEXT EDIT TEXT EDIT TEXT EDIT TEXT EDIT TEXT EDIT TEXT EDIT TEXT EDIT TEXT EDIT TEXT EDIT TEXT EDIT TEXT EDIT TEXT EDIT TEXT EDIT TEXT EDIT TEXT EDIT TEXT EDIT TEXT EDIT TEXT EDIT TEXT EDIT TEXT EDIT TEXT EDIT TEXT EDIT TEXT EDIT TEXT EDIT TEXT EDIT TEXT EDIT TEXT EDIT TEXT EDIT TEXT EDIT TEXT EDIT TEXT EDIT TEXT EDIT TEXT EDIT TEXT EDIT TEXT EDIT TEXT EDIT TEXT EDIT TEXT EDIT TEXT EDIT TEXT EDIT TEXT EDIT TEXT EDIT TEXT EDIT TEXT EDIT TEXT EDIT TEXT EDIT TEXT EDIT TEXT EDIT TEXT EDIT TEXT EDIT TEXT EDIT TEXT EDIT TEXT EDIT TEXT EDIT TEXT EDIT TEXT EDIT TEXT EDIT TEXT EDIT TEXT EDIT TEXT EDIT TEXT EDIT TEXT EDIT TEXT EDIT TEXT EDIT TEXT EDIT TEXT EDIT TEXT EDIT TEXT EDIT TEXT EDIT TEXT EDIT TEXT EDIT TEXT EDIT TEXT EDIT TEXT EDIT TEXT EDIT TEXT EDIT TEXT EDIT TEXT EDIT TEXT EDIT TEXT EDIT TEXT EDIT TEXT EDIT TEXT EDIT TEXT EDIT TEXT EDIT TEXT EDIT TEXT EDIT TEXT EDIT TEXT EDIT TEXT EDIT TEXT EDIT TEXT EDIT TEXT EDIT TEXT EDIT TEXT EDIT TEXT EDIT TEXT EDIT TEXT EDIT TEXT EDIT TEXT EDIT TEXT EDIT TEXT EDIT TEXT EDIT TEXT EDIT TEXT EDIT TEXT EDIT TEXT EDIT TEXT EDIT TEXT EDIT TEXT EDIT TEXT EDIT TEXT EDIT TEXT EDIT TEXT EDIT TEXT EDIT TEXT EDIT TEXT EDIT TEXT EDIT TEXT EDIT TEXT EDIT TEXT EDIT TEXT EDIT TEXT EDIT TEXT EDIT TEXT EDIT TEXT EDIT TEXT EDIT TEXT EDIT TEXT EDIT TEXT EDIT TEXT EDIT TEXT EDIT TEXT EDIT TEXT EDIT TEXT EDIT TEXT EDIT TEXT EDIT TEXT EDIT TEXT EDIT TEXT EDIT TEXT EDIT TEXT EDIT TEXT EDIT TEXT EDIT TEXT EDIT TEXT EDIT TEXT EDIT TEXT EDIT TEXT EDIT TEXT EDIT TEXT EDIT TEXT EDIT TEXT EDIT TEXT EDIT TEXT EDIT TEXT </mutableString>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Ydh-ys-FqK"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -115,7 +118,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Tjd-9k-lS3" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2932" y="96"/>
+            <point key="canvasLocation" x="2930.434782608696" y="95.758928571428569"/>
         </scene>
         <!--Notes-->
         <scene sceneID="tGa-1w-mRP">
@@ -301,6 +304,9 @@
         <image name="book" width="1200" height="1404"/>
         <image name="house" catalog="system" width="128" height="106"/>
         <image name="list.bullet.rectangle.portrait" catalog="system" width="115" height="128"/>
+        <systemColor name="labelColor">
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
