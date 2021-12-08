@@ -182,7 +182,7 @@
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="Add"/>
                                 <connections>
-                                    <segue destination="Whh-Py-Kdx" kind="push" id="BNz-K1-4II"/>
+                                    <segue destination="Whh-Py-Kdx" kind="show" id="ELU-eT-RPX"/>
                                 </connections>
                             </button>
                         </subviews>
