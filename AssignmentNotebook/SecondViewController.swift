@@ -15,18 +15,18 @@ class SecondViewController: UIViewController, UITableViewDelegate, UITableViewDa
     @IBOutlet weak var tableOutlet: UITableView!
     
     override func viewDidLoad() {
-        assignments.append("Homework")
+        
         tableOutlet.delegate = self
         tableOutlet.dataSource = self
     }
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        assignments.count
+        VariableThing.assignmentsList.count
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "myCell", for: indexPath) as! notesClass
-        cell.notesTitle.text = "Title Works"
-        cell.timeDue.text = "6:90 PM"
+        cell.notesTitle.text = VariableThing.assignmentName
+        cell.timeDue.text = "4:20 PM"
         return cell
     }
     
