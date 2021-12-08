@@ -9,32 +9,26 @@ import UIKit
 
 
 class SecondViewController: UIViewController, UITableViewDelegate, UITableViewDataSource{
-    var notes: [String] = []
     
-
+    
+    var assignments : [String] = []
     @IBOutlet weak var tableOutlet: UITableView!
+    
     override func viewDidLoad() {
-        super.viewDidLoad()
+        assignments.append("Homework")
         tableOutlet.delegate = self
         tableOutlet.dataSource = self
-        notes.append("one")
-
-        // Do any additional setup after loading the view.
     }
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        notes.count
+        assignments.count
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        print("cell")
         let cell = tableView.dequeueReusableCell(withIdentifier: "myCell", for: indexPath) as! notesClass
-       cell.notesTitle.text = "Notes Title"
-        cell.timeDue.text = "Time Due"
+        
         return cell
     }
-    @IBAction func addBut(_ sender: Any) {
-        let now = Date()
-        print(now)
+    
     }
     
 
@@ -48,4 +42,4 @@ class SecondViewController: UIViewController, UITableViewDelegate, UITableViewDa
     }
     */
 
-}
+

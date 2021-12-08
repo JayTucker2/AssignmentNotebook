@@ -171,9 +171,8 @@
                                             </constraints>
                                         </tableViewCellContentView>
                                         <connections>
-                                            <outlet property="notesTItle" destination="0cB-Y8-MtR" id="2Vs-f2-3B2"/>
-                                            <outlet property="notesTitle" destination="0cB-Y8-MtR" id="JfS-JP-z9m"/>
-                                            <outlet property="timeDue" destination="KhI-un-MIM" id="ESx-XI-UYq"/>
+                                            <outlet property="notesTitle" destination="0cB-Y8-MtR" id="LA5-xg-1gR"/>
+                                            <outlet property="timeDue" destination="KhI-un-MIM" id="U4O-Dd-yCc"/>
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>
@@ -183,7 +182,6 @@
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="Add"/>
                                 <connections>
-                                    <action selector="addBut:" destination="R3p-hq-JI3" eventType="touchUpInside" id="qwt-vW-9E8"/>
                                     <segue destination="Whh-Py-Kdx" kind="push" id="BNz-K1-4II"/>
                                 </connections>
                             </button>
