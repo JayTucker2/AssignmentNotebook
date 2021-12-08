@@ -7,14 +7,17 @@
 
 import Foundation
 
-class AssigbnmentClass{
+public class AssigbnmentClass{
 var className = ""
 var assignmentName = ""
 var dueDate = ""
 var isDone = false
     
-    AssigbnmentClass(){
-        
+    init(className : String, assignment : String, dueDate : String, isDone : Bool)
+    {
+        self.className = className
+        self.assignmentName = assignment
+        self.dueDate = dueDate
+        self.isDone = isDone
     }
-    
 }
