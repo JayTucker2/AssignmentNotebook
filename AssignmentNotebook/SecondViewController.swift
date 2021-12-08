@@ -25,7 +25,8 @@ class SecondViewController: UIViewController, UITableViewDelegate, UITableViewDa
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "myCell", for: indexPath) as! notesClass
-        
+        cell.notesTitle.text = "Title Works"
+        cell.timeDue.text = "6:90 PM"
         return cell
     }
     
