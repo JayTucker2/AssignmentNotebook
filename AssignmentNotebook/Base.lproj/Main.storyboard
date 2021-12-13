@@ -66,7 +66,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="5060.8695652173919" y="959.59821428571422"/>
+            <point key="canvasLocation" x="4913" y="1320"/>
         </scene>
         <!--Fourth View Controller-->
         <scene sceneID="QEm-AC-hQq">
@@ -92,11 +92,10 @@
                                 <color key="textColor" red="1" green="0.57637232540000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="dgd-wT-mi7">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Add Assignment Details" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="dgd-wT-mi7">
                                 <rect key="frame" x="20" y="225" width="374" height="615"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <string key="text">EDIT TEXT EDIT TEXT EDIT TEXT EDIT TEXT EDIT TEXT EDIT TEXT EDIT TEXT EDIT TEXT EDIT TEXT EDIT TEXT EDIT TEXT EDIT TEXT EDIT TEXT EDIT TEXT EDIT TEXT EDIT TEXT EDIT TEXT EDIT TEXT EDIT TEXT EDIT TEXT EDIT TEXT EDIT TEXT EDIT TEXT EDIT TEXT EDIT TEXT EDIT TEXT EDIT TEXT EDIT TEXT EDIT TEXT EDIT TEXT EDIT TEXT EDIT TEXT EDIT TEXT EDIT TEXT EDIT TEXT EDIT TEXT EDIT TEXT EDIT TEXT EDIT TEXT EDIT TEXT EDIT TEXT EDIT TEXT EDIT TEXT EDIT TEXT EDIT TEXT EDIT TEXT EDIT TEXT EDIT TEXT EDIT TEXT EDIT TEXT EDIT TEXT EDIT TEXT EDIT TEXT EDIT TEXT EDIT TEXT EDIT TEXT EDIT TEXT EDIT TEXT EDIT TEXT EDIT TEXT EDIT TEXT EDIT TEXT EDIT TEXT EDIT TEXT EDIT TEXT EDIT TEXT EDIT TEXT EDIT TEXT EDIT TEXT EDIT TEXT EDIT TEXT EDIT TEXT EDIT TEXT EDIT TEXT EDIT TEXT EDIT TEXT EDIT TEXT EDIT TEXT EDIT TEXT EDIT TEXT EDIT TEXT EDIT TEXT EDIT TEXT EDIT TEXT EDIT TEXT EDIT TEXT EDIT TEXT EDIT TEXT EDIT TEXT EDIT TEXT EDIT TEXT EDIT TEXT EDIT TEXT EDIT TEXT EDIT TEXT EDIT TEXT EDIT TEXT EDIT TEXT EDIT TEXT EDIT TEXT EDIT TEXT EDIT TEXT EDIT TEXT EDIT TEXT EDIT TEXT EDIT TEXT EDIT TEXT EDIT TEXT EDIT TEXT EDIT TEXT EDIT TEXT EDIT TEXT EDIT TEXT EDIT TEXT EDIT TEXT EDIT TEXT EDIT TEXT EDIT TEXT EDIT TEXT EDIT TEXT EDIT TEXT EDIT TEXT EDIT TEXT EDIT TEXT EDIT TEXT EDIT TEXT EDIT TEXT EDIT TEXT EDIT TEXT EDIT TEXT EDIT TEXT EDIT TEXT EDIT TEXT EDIT TEXT EDIT TEXT EDIT TEXT EDIT TEXT EDIT TEXT EDIT TEXT EDIT TEXT EDIT TEXT EDIT TEXT EDIT TEXT EDIT TEXT EDIT TEXT EDIT TEXT EDIT TEXT EDIT TEXT EDIT TEXT EDIT TEXT EDIT TEXT EDIT TEXT EDIT TEXT EDIT TEXT EDIT TEXT EDIT TEXT EDIT TEXT EDIT TEXT EDIT TEXT EDIT TEXT EDIT TEXT EDIT TEXT EDIT TEXT EDIT TEXT EDIT TEXT EDIT TEXT EDIT TEXT EDIT TEXT EDIT TEXT EDIT TEXT EDIT TEXT EDIT TEXT EDIT TEXT EDIT TEXT EDIT TEXT </string>
                                 <color key="textColor" red="1" green="0.57637232540000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -121,7 +120,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Tjd-9k-lS3" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2930.434782608696" y="95.758928571428569"/>
+            <point key="canvasLocation" x="5536" y="1320"/>
         </scene>
         <!--Notes-->
         <scene sceneID="tGa-1w-mRP">
@@ -205,7 +204,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1f6-Z5-ZiM" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="6379.7101449275369" y="929.46428571428567"/>
+            <point key="canvasLocation" x="4912" y="666"/>
         </scene>
         <!--Third View Controller-->
         <scene sceneID="4Aw-ru-PrE">
@@ -278,7 +277,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="pl3-lq-OIc" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3669.5652173913045" y="95.758928571428569"/>
+            <point key="canvasLocation" x="5535" y="666"/>
         </scene>
         <!--Item-->
         <scene sceneID="tzb-uu-ZP3">
@@ -297,7 +296,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Nle-bQ-OY5" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3240.579710144928" y="959.59821428571422"/>
+            <point key="canvasLocation" x="3470" y="960"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="DIy-9L-ZlT">
@@ -306,6 +305,7 @@
                     <toolbarItems/>
                     <navigationItem key="navigationItem" id="gFw-e1-anQ"/>
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="7Zy-nV-ofg">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </tabBar>
