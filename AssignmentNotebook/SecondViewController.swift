@@ -35,8 +35,16 @@ class SecondViewController: UIViewController, UITableViewDelegate, UITableViewDa
         cell.timeDue.text = VariableThing.date
         return cell
     }
-    
+    func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCell.EditingStyle, forRowAt indexPath: IndexPath) {
+        if editingStyle == .delete {
+            VariableThing.assignmentsList.remove(at: indexPath.row)
+            tableOutlet.reloadData()
     }
+    }
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        performSegue(withIdentifier: "Segue1", sender: self)
+    }
+}
     
 
     /*
@@ -48,5 +56,6 @@ class SecondViewController: UIViewController, UITableViewDelegate, UITableViewDa
         // Pass the selected object to the new view controller.
     }
     */
+
 
 

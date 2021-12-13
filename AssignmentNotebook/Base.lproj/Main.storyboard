@@ -113,6 +113,7 @@
                         <viewLayoutGuide key="safeArea" id="Ydh-ys-FqK"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
+                    <navigationItem key="navigationItem" id="pLw-Y9-4bP"/>
                     <connections>
                         <outlet property="lab1" destination="AUf-i3-P9A" id="2V3-bw-kOG"/>
                         <outlet property="lab2" destination="B6o-vO-81X" id="rGY-Ff-j4M"/>
@@ -201,6 +202,7 @@
                     <tabBarItem key="tabBarItem" title="Notes" selectedImage="list.bullet.rectangle.portrait" catalog="system" id="afb-U0-Qc5"/>
                     <connections>
                         <outlet property="tableOutlet" destination="9yS-7h-BLJ" id="3sw-mB-4NX"/>
+                        <segue destination="3xb-Rk-2JB" kind="show" identifier="Segue1" id="hES-ef-lO1"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1f6-Z5-ZiM" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -306,6 +308,7 @@
                     <toolbarItems/>
                     <navigationItem key="navigationItem" id="gFw-e1-anQ"/>
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="7Zy-nV-ofg">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </tabBar>
