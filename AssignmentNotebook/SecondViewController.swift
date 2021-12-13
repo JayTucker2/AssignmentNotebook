@@ -18,15 +18,21 @@ class SecondViewController: UIViewController, UITableViewDelegate, UITableViewDa
         
         tableOutlet.delegate = self
         tableOutlet.dataSource = self
+        
+    }
+    override func viewWillAppear(_ animated: Bool) {
+        tableOutlet.reloadData()
     }
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        VariableThing.assignmentsList.count
+        print(VariableThing.assignmentsList.count)
+        return VariableThing.assignmentsList.count
+        
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "myCell", for: indexPath) as! notesClass
         cell.notesTitle.text = VariableThing.assignmentName
-        cell.timeDue.text = "4:20 PM"
+        cell.timeDue.text = VariableThing.date
         return cell
     }
     

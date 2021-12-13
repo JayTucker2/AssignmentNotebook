@@ -31,6 +31,7 @@ class ThirdViewController: UIViewController {
         VariableThing.date = textField3.text!
             var a = AssigbnmentClass(className: VariableThing.className, assignment: VariableThing.assignmentName, dueDate: VariableThing.date, isDone: false)
             VariableThing.assignmentsList.append(a)
+            print("\(VariableThing.assignmentsList[0].className)")
         }
     }
     
