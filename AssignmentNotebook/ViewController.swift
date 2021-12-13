@@ -6,7 +6,7 @@
 //  Edited by BRENT BLITEK
 //
 //Edited by JAYLAN TUCKER
-class VariableThing{
+class VariableThing : Codable{
     static var className = ""
     static var assignmentName = ""
     static var date = ""

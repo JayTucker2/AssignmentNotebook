@@ -57,7 +57,7 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item" id="VZV-ge-t2j"/>
+                    <tabBarItem key="tabBarItem" title="Item" selectedImage="house.fill" catalog="system" id="VZV-ge-t2j"/>
                     <navigationItem key="navigationItem" id="Ci6-L4-qRb"/>
                     <connections>
                         <outlet property="nameLabel" destination="PNG-k8-owv" id="u28-tQ-MEo"/>
@@ -323,6 +323,7 @@
     </scenes>
     <resources>
         <image name="book" width="1200" height="1404"/>
+        <image name="house.fill" catalog="system" width="128" height="106"/>
         <image name="list.bullet.rectangle.portrait" catalog="system" width="115" height="128"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>

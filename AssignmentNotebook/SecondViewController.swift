@@ -11,9 +11,11 @@ import UIKit
 class SecondViewController: UIViewController, UITableViewDelegate, UITableViewDataSource{
     
     
-    var assignments : [String] = []
-    @IBOutlet weak var tableOutlet: UITableView!
     
+    @IBOutlet weak var tableOutlet: UITableView!
+    func save(){
+        
+    }
     override func viewDidLoad() {
         
         tableOutlet.delegate = self
