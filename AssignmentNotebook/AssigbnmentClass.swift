@@ -7,7 +7,7 @@
 
 import Foundation
 
-public class AssigbnmentClass{
+public class AssigbnmentClass : Codable{
 var className = ""
 var assignmentName = ""
 var dueDate = ""
